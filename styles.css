@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  background: #143A18;
+  background: #2c4a2e;
   color: #D5E8CE;
   font-family: "Georgia", "Times New Roman", serif;
   min-height: 100vh;
@@ -34,7 +34,7 @@ body {
 header {
   text-align: center;
   padding: 3rem 1rem 2rem;
-  border-bottom: 1px solid #1E5028;
+  border-bottom: 1px solid #7EA87B;
 }
 
 header h1 {
@@ -48,7 +48,7 @@ header h1 {
 
 .subtitle {
   font-style: italic;
-  color: #A3C89D;
+  color: #B6D991;
   font-size: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -61,8 +61,8 @@ header h1 {
 
 .sort-btn {
   background: transparent;
-  border: 1px solid #4D6B3E;
-  color: #A3C89D;
+  border: 1px solid #7EA87B;
+  color: #B6D991;
   padding: 0.4rem 1.2rem;
   font-family: inherit;
   font-size: 0.85rem;
@@ -72,14 +72,14 @@ header h1 {
 }
 
 .sort-btn:hover {
-  border-color: #FFF8ED;
+  border-color: #D5E8CE;
   color: #FFF8ED;
 }
 
 .sort-btn.active {
-  border-color: #FFF8ED;
+  border-color: #D5E8CE;
   color: #FFF8ED;
-  background: rgba(126, 168, 123, 0.12);
+  background: rgba(126, 168, 123, 0.2);
 }
 
 .nav-links {
@@ -87,7 +87,7 @@ header h1 {
 }
 
 .nav-links a {
-  color: #A3C89D;
+  color: #B6D991;
   text-decoration: none;
   font-size: 0.9rem;
   letter-spacing: 0.05em;
@@ -124,15 +124,15 @@ header h1 {
   gap: 1rem;
   align-items: center;
   padding: 0.7rem 1rem;
-  border-bottom: 1px solid #1E5028;
+  border-bottom: 1px solid #4D6B3E;
 }
 
 .lb-row.lb-header {
-  color: #7EA87B;
+  color: #B6D991;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  border-bottom: 1px solid #4D6B3E;
+  border-bottom: 1px solid #7EA87B;
   padding-bottom: 0.5rem;
 }
 
@@ -153,7 +153,7 @@ header h1 {
 
 .lb-stat {
   text-align: right;
-  color: #A3C89D;
+  color: #B6D991;
   font-size: 0.9rem;
   min-width: 4rem;
 }
@@ -172,29 +172,29 @@ header h1 {
 /* --- Art Frame --- */
 
 .meme-frame {
-  background: linear-gradient(145deg, #4D6B3E, #2a4a2a, #4D6B3E, #5a7a4d, #4D6B3E);
+  background: linear-gradient(145deg, #7EA87B, #6a956a, #7EA87B, #8fb88c, #7EA87B);
   padding: 18px;
   border-radius: 3px;
   box-shadow:
-    0 6px 30px rgba(0, 0, 0, 0.5),
-    inset 0 2px 4px rgba(255, 255, 255, 0.1),
-    inset 0 -2px 4px rgba(0, 0, 0, 0.3);
+    0 6px 30px rgba(0, 0, 0, 0.4),
+    inset 0 2px 4px rgba(255, 255, 255, 0.2),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .meme-frame:hover {
   transform: translateY(-3px);
   box-shadow:
-    0 10px 40px rgba(0, 0, 0, 0.6),
-    inset 0 2px 4px rgba(255, 255, 255, 0.1),
-    inset 0 -2px 4px rgba(0, 0, 0, 0.3);
+    0 10px 40px rgba(0, 0, 0, 0.5),
+    inset 0 2px 4px rgba(255, 255, 255, 0.2),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .meme-frame-inner {
-  border: 2px solid #5a7a4d;
+  border: 2px solid #A3C89D;
   box-shadow:
-    inset 0 0 0 1px rgba(0, 0, 0, 0.3),
-    0 0 0 1px rgba(0, 0, 0, 0.2);
+    inset 0 0 0 1px rgba(0, 0, 0, 0.15),
+    0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
 .meme-mat {
@@ -246,8 +246,8 @@ header h1 {
 footer {
   text-align: center;
   padding: 2rem 1rem;
-  border-top: 1px solid #1E5028;
-  color: #4D6B3E;
+  border-top: 1px solid #7EA87B;
+  color: #7EA87B;
   font-size: 0.85rem;
   font-style: italic;
 }
@@ -261,7 +261,7 @@ body.locked > *:not(#auth-overlay) {
 #auth-overlay {
   position: fixed;
   inset: 0;
-  background: #143A18;
+  background: #2c4a2e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -284,7 +284,7 @@ body.locked > *:not(#auth-overlay) {
 }
 
 .auth-box p {
-  color: #A3C89D;
+  color: #B6D991;
   font-style: italic;
   font-size: 0.9rem;
   margin-bottom: 1.5rem;
@@ -295,7 +295,7 @@ body.locked > *:not(#auth-overlay) {
   width: 100%;
   padding: 0.6rem 1rem;
   background: #1E211E;
-  border: 1px solid #4D6B3E;
+  border: 1px solid #7EA87B;
   color: #D5E8CE;
   font-family: inherit;
   font-size: 1rem;
@@ -305,7 +305,7 @@ body.locked > *:not(#auth-overlay) {
 }
 
 #auth-input:focus {
-  border-color: #7EA87B;
+  border-color: #B6D991;
 }
 
 #auth-submit {
@@ -313,7 +313,7 @@ body.locked > *:not(#auth-overlay) {
   width: 100%;
   padding: 0.5rem;
   background: transparent;
-  border: 1px solid #4D6B3E;
+  border: 1px solid #7EA87B;
   color: #FFF8ED;
   font-family: inherit;
   font-size: 0.9rem;
@@ -323,8 +323,8 @@ body.locked > *:not(#auth-overlay) {
 }
 
 #auth-submit:hover {
-  background: rgba(126, 168, 123, 0.15);
-  border-color: #7EA87B;
+  background: rgba(182, 217, 145, 0.15);
+  border-color: #B6D991;
 }
 
 #auth-error {
