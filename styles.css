@@ -1,3 +1,19 @@
+/*
+  Blank Street Brand Colors (approx hex from CMYK)
+  --bs-cream:       #FFF8ED
+  --bs-6am:         #D5E8CE   (6AM Green - lightest)
+  --bs-8am:         #B6D991   (8AM Green)
+  --bs-10am:        #A3C89D   (10AM Green)
+  --bs-12pm:        #7EA87B   (12PM Green - primary)
+  --bs-2pm:         #4D6B3E   (2PM Green)
+  --bs-4pm:         #1E5028   (4PM Green)
+  --bs-6pm:         #143A18   (6PM Green - darkest)
+  --bs-light-gray:  #DBD6D0
+  --bs-gray:        #AEA69E
+  --bs-dark-gray:   #6B6560
+  --bs-black:       #1E211E
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -9,8 +25,8 @@ html {
 }
 
 body {
-  background: #1a1a1a;
-  color: #e0e0e0;
+  background: #143A18;
+  color: #D5E8CE;
   font-family: "Georgia", "Times New Roman", serif;
   min-height: 100vh;
 }
@@ -18,7 +34,7 @@ body {
 header {
   text-align: center;
   padding: 3rem 1rem 2rem;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #1E5028;
 }
 
 header h1 {
@@ -26,13 +42,13 @@ header h1 {
   font-weight: 400;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #f0e6d3;
+  color: #FFF8ED;
   margin-bottom: 0.5rem;
 }
 
 .subtitle {
   font-style: italic;
-  color: #999;
+  color: #A3C89D;
   font-size: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -45,8 +61,8 @@ header h1 {
 
 .sort-btn {
   background: transparent;
-  border: 1px solid #555;
-  color: #999;
+  border: 1px solid #4D6B3E;
+  color: #A3C89D;
   padding: 0.4rem 1.2rem;
   font-family: inherit;
   font-size: 0.85rem;
@@ -56,14 +72,14 @@ header h1 {
 }
 
 .sort-btn:hover {
-  border-color: #f0e6d3;
-  color: #f0e6d3;
+  border-color: #FFF8ED;
+  color: #FFF8ED;
 }
 
 .sort-btn.active {
-  border-color: #f0e6d3;
-  color: #f0e6d3;
-  background: rgba(240, 230, 211, 0.08);
+  border-color: #FFF8ED;
+  color: #FFF8ED;
+  background: rgba(126, 168, 123, 0.12);
 }
 
 .nav-links {
@@ -71,7 +87,7 @@ header h1 {
 }
 
 .nav-links a {
-  color: #999;
+  color: #A3C89D;
   text-decoration: none;
   font-size: 0.9rem;
   letter-spacing: 0.05em;
@@ -80,8 +96,8 @@ header h1 {
 }
 
 .nav-links a:hover {
-  color: #f0e6d3;
-  border-bottom-color: #f0e6d3;
+  color: #FFF8ED;
+  border-bottom-color: #FFF8ED;
 }
 
 /* --- Leaderboard --- */
@@ -98,7 +114,7 @@ header h1 {
   font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #f0e6d3;
+  color: #FFF8ED;
   margin-bottom: 1.5rem;
 }
 
@@ -108,21 +124,21 @@ header h1 {
   gap: 1rem;
   align-items: center;
   padding: 0.7rem 1rem;
-  border-bottom: 1px solid #2a2a2a;
+  border-bottom: 1px solid #1E5028;
 }
 
 .lb-row.lb-header {
-  color: #777;
+  color: #7EA87B;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #4D6B3E;
   padding-bottom: 0.5rem;
 }
 
 .lb-rank {
   text-align: center;
-  color: #f0e6d3;
+  color: #FFF8ED;
   font-size: 1rem;
 }
 
@@ -132,12 +148,12 @@ header h1 {
 
 .lb-name {
   font-style: italic;
-  color: #e0e0e0;
+  color: #D5E8CE;
 }
 
 .lb-stat {
   text-align: right;
-  color: #999;
+  color: #A3C89D;
   font-size: 0.9rem;
   min-width: 4rem;
 }
@@ -156,12 +172,12 @@ header h1 {
 /* --- Art Frame --- */
 
 .meme-frame {
-  background: linear-gradient(145deg, #8b7355, #6b5740, #8b7355, #a08060, #8b7355);
+  background: linear-gradient(145deg, #4D6B3E, #2a4a2a, #4D6B3E, #5a7a4d, #4D6B3E);
   padding: 18px;
   border-radius: 3px;
   box-shadow:
     0 6px 30px rgba(0, 0, 0, 0.5),
-    inset 0 2px 4px rgba(255, 255, 255, 0.15),
+    inset 0 2px 4px rgba(255, 255, 255, 0.1),
     inset 0 -2px 4px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -170,37 +186,37 @@ header h1 {
   transform: translateY(-3px);
   box-shadow:
     0 10px 40px rgba(0, 0, 0, 0.6),
-    inset 0 2px 4px rgba(255, 255, 255, 0.15),
+    inset 0 2px 4px rgba(255, 255, 255, 0.1),
     inset 0 -2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .meme-frame-inner {
-  border: 2px solid #a08060;
+  border: 2px solid #5a7a4d;
   box-shadow:
     inset 0 0 0 1px rgba(0, 0, 0, 0.3),
     0 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
 .meme-mat {
-  background: #f5f0e8;
+  background: #FFF8ED;
   padding: 20px 20px 0;
 }
 
 .meme-card {
-  background: #f5f0e8;
+  background: #FFF8ED;
   overflow: hidden;
 }
 
 .meme-card img {
   width: 100%;
   display: block;
-  background: #ddd;
+  background: #DBD6D0;
 }
 
 .meme-info {
-  background: #f5f0e8;
+  background: #FFF8ED;
   padding: 1rem 20px 1.2rem;
-  color: #2a2a2a;
+  color: #1E211E;
 }
 
 .meme-artist {
@@ -214,7 +230,7 @@ header h1 {
   justify-content: space-between;
   align-items: center;
   font-size: 0.85rem;
-  color: #777;
+  color: #6B6560;
 }
 
 .meme-reactions {
@@ -230,8 +246,8 @@ header h1 {
 footer {
   text-align: center;
   padding: 2rem 1rem;
-  border-top: 1px solid #333;
-  color: #555;
+  border-top: 1px solid #1E5028;
+  color: #4D6B3E;
   font-size: 0.85rem;
   font-style: italic;
 }
@@ -245,7 +261,7 @@ body.locked > *:not(#auth-overlay) {
 #auth-overlay {
   position: fixed;
   inset: 0;
-  background: #1a1a1a;
+  background: #143A18;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -263,12 +279,12 @@ body.locked > *:not(#auth-overlay) {
   font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #f0e6d3;
+  color: #FFF8ED;
   margin-bottom: 0.5rem;
 }
 
 .auth-box p {
-  color: #999;
+  color: #A3C89D;
   font-style: italic;
   font-size: 0.9rem;
   margin-bottom: 1.5rem;
@@ -278,9 +294,9 @@ body.locked > *:not(#auth-overlay) {
   display: block;
   width: 100%;
   padding: 0.6rem 1rem;
-  background: #2a2a2a;
-  border: 1px solid #444;
-  color: #e0e0e0;
+  background: #1E211E;
+  border: 1px solid #4D6B3E;
+  color: #D5E8CE;
   font-family: inherit;
   font-size: 1rem;
   text-align: center;
@@ -289,7 +305,7 @@ body.locked > *:not(#auth-overlay) {
 }
 
 #auth-input:focus {
-  border-color: #f0e6d3;
+  border-color: #7EA87B;
 }
 
 #auth-submit {
@@ -297,8 +313,8 @@ body.locked > *:not(#auth-overlay) {
   width: 100%;
   padding: 0.5rem;
   background: transparent;
-  border: 1px solid #555;
-  color: #f0e6d3;
+  border: 1px solid #4D6B3E;
+  color: #FFF8ED;
   font-family: inherit;
   font-size: 0.9rem;
   cursor: pointer;
@@ -307,8 +323,8 @@ body.locked > *:not(#auth-overlay) {
 }
 
 #auth-submit:hover {
-  background: rgba(240, 230, 211, 0.08);
-  border-color: #f0e6d3;
+  background: rgba(126, 168, 123, 0.15);
+  border-color: #7EA87B;
 }
 
 #auth-error {
