@@ -2,8 +2,8 @@ name: Fetch Memes
 
 on:
   schedule:
-    # Every hour from 9am-9pm UTC on Fridays
-    - cron: "0 9-21 * * 5"
+    # Every hour from 9am-9pm UK time on Fridays (8-20 UTC covers BST, extra hour for GMT)
+    - cron: "0 8-21 * * 5"
   workflow_dispatch: # Allow manual trigger
 
 jobs:

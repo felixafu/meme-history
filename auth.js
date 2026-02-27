@@ -1,4 +1,4 @@
-(() => {
+document.addEventListener("DOMContentLoaded", () => {
   const PASS_HASH = "988f573b349d8d7c537cc03489a0bed43f03e07fb75fafac7d121f77599ca7bc";
 
   async function hash(str) {
@@ -50,4 +50,4 @@
     if (e.key === "Enter") attempt();
   });
   input.focus();
-})();
+});
