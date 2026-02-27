@@ -1,0 +1,12 @@
+{
+  "name": "meme-history",
+  "version": "1.0.0",
+  "description": "UK Memes Slack gallery website",
+  "scripts": {
+    "fetch": "node fetch-memes.js"
+  },
+  "dependencies": {
+    "@slack/web-api": "^7.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
