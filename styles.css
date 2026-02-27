@@ -172,29 +172,42 @@ header h1 {
 /* --- Art Frame --- */
 
 .meme-frame {
-  background: linear-gradient(145deg, #7EA87B, #6a956a, #7EA87B, #8fb88c, #7EA87B);
-  padding: 18px;
-  border-radius: 3px;
+  /* Outer frame - raised wooden edge */
+  background: linear-gradient(160deg, #b89a5a, #a08040, #8b6e35, #a08040, #b89a5a);
+  padding: 6px;
+  border-radius: 2px;
   box-shadow:
-    0 6px 30px rgba(0, 0, 0, 0.4),
-    inset 0 2px 4px rgba(255, 255, 255, 0.2),
-    inset 0 -2px 4px rgba(0, 0, 0, 0.2);
+    0 6px 30px rgba(0, 0, 0, 0.5),
+    inset 0 1px 2px rgba(255, 235, 180, 0.4),
+    inset 0 -1px 2px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .meme-frame:hover {
   transform: translateY(-3px);
   box-shadow:
-    0 10px 40px rgba(0, 0, 0, 0.5),
-    inset 0 2px 4px rgba(255, 255, 255, 0.2),
-    inset 0 -2px 4px rgba(0, 0, 0, 0.2);
+    0 10px 40px rgba(0, 0, 0, 0.6),
+    inset 0 1px 2px rgba(255, 235, 180, 0.4),
+    inset 0 -1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.meme-frame-mid {
+  /* Wide sloped section of the frame */
+  background: linear-gradient(170deg, #c4a44a, #a88a3a, #7a6228, #6b5520, #7a6228, #a88a3a, #c4a44a);
+  padding: 16px;
+  box-shadow:
+    inset 0 2px 6px rgba(255, 235, 180, 0.3),
+    inset 0 -3px 8px rgba(0, 0, 0, 0.4),
+    inset 3px 0 6px rgba(0, 0, 0, 0.15),
+    inset -3px 0 6px rgba(0, 0, 0, 0.15);
 }
 
 .meme-frame-inner {
-  border: 2px solid #A3C89D;
+  /* Inner lip of frame */
+  border: 3px solid #5a4418;
   box-shadow:
-    inset 0 0 0 1px rgba(0, 0, 0, 0.15),
-    0 0 0 1px rgba(0, 0, 0, 0.1);
+    inset 0 1px 3px rgba(0, 0, 0, 0.5),
+    0 1px 0 rgba(255, 235, 180, 0.2);
 }
 
 .meme-mat {

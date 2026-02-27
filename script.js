@@ -47,17 +47,19 @@
       const frame = document.createElement("div");
       frame.className = "meme-frame";
       frame.innerHTML = `
-        <div class="meme-frame-inner">
-          <div class="meme-mat">
-            <div class="meme-card">
-              <img src="${meme.imageUrl}" alt="Meme by ${meme.artist}" loading="lazy">
+        <div class="meme-frame-mid">
+          <div class="meme-frame-inner">
+            <div class="meme-mat">
+              <div class="meme-card">
+                <img src="${meme.imageUrl}" alt="Meme by ${meme.artist}" loading="lazy">
+              </div>
             </div>
-          </div>
-          <div class="meme-info">
-            <div class="meme-artist">${meme.artist}</div>
-            <div class="meme-meta">
-              <span class="meme-reactions">${meme.reactions} reactions</span>
-              <span class="meme-date">${formatDate(meme.date)}</span>
+            <div class="meme-info">
+              <div class="meme-artist">${meme.artist}</div>
+              <div class="meme-meta">
+                <span class="meme-reactions">${meme.reactions} reactions</span>
+                <span class="meme-date">${formatDate(meme.date)}</span>
+              </div>
             </div>
           </div>
         </div>
